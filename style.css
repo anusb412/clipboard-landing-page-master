@@ -249,3 +249,67 @@ ul {
   transform: scale(150%);
   gap: 2rem;
 }
+
+@media (min-width:810px) {
+
+  body {
+    background-image: url(/images/bg-header-desktop.png);
+    max-width: 1300px;
+  }
+
+  .big-c {
+    transform: scale(30%);
+  }
+
+  .download-buttons-top {
+    display: inline-block;
+  }
+
+  .computer {
+    transform: scale(50%);
+  }
+
+  .multi {
+    transform: scale(75%);
+  }
+
+  .mid-section {
+    display: flex;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 80%;
+    transform: scale(65%);
+  }
+
+  .download-buttons-bottom {
+    display: inline-block;
+  }
+
+  .img {
+    margin: 3rem auto;
+  }
+  
+  .plain {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
+  .sneak {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+
+  .bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .d {
+    font-size: 1rem;
+  }
+}
